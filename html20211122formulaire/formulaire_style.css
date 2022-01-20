@@ -1,0 +1,44 @@
+#formulairetext
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#formulairetext #nom1
+{
+    margin-left: 100px;
+}
+#formulairetext #nom2
+{
+    margin-left: 63px;
+}
+#formulairetext #nom3
+{
+    margin-left: 2px;
+}
+.typeradio
+{
+    display: flex;
+    margin-left: 30px;
+}
+.radioposi
+{
+    margin-top: 16px;
+}
+.possed
+{
+    display: flex;
+    margin-left: 7px;
+}
+.possedposi
+{
+    margin-top: 16px;
+}
+.profess
+{
+    display: flex;
+}
+.professposi
+{
+    margin-top: 16px;
+}

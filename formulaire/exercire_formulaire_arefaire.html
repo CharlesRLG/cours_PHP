@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="exercire_formulaire_arefaire_style.css">
+
+	<title>Exercice formulaire</title>
+	
+	</head>
+<body>
+	<section>
+
+		<article id="formulairetext">
+
+			<div class="noma">
+			<form method="get" action="formulairephp.php">
+			<label for="pseudo">Votre pseudo :</label>
+			<input id="pseudo" type="text" name="pseudo" size="8" /><br>
+			</div>
+			<br>
+
+			<div class="nomb">
+			<form method="get" action="formulairephp.php">
+			<label for="mdp">Votre mot de passe :</label>
+			<input id="mdp" type="text" name="mdp" size="8" /><br>
+			</div>
+			<br>
+
+			<div class="nomc">
+			<form method="get" action="formulairephp.php">
+			<label for="confmdp">Ressaisir votre mot de passe :</label>
+			<input id="confmdp" type="text" name="confmdp" size="8" /><br>
+			</div>
+
+		</article>
+
+		<article class="typeradio">
+			<div>
+			<p>OS préféré :</p>
+			</div>
+
+			<div class="radioposi">
+			<input type="radio"
+			name="OS_favori" id="Win" value="Windows">WIndows
+			</label><br>
+
+			<label>
+			<input type="radio"
+			name="OS_favori" id="Win_ant" value="Windows_antérieur">Windows &lsaquo;10</label><br>
+			<label>
+			<input type="radio"
+			name="OS_favori" id="MAC" value="MacOS">MacOS X<br>
+			</label>
+
+			<label>
+			<input type="radio"
+			name="OS_favori" id="Linux" value="Linux">Linux<br>
+			</label> 
+
+			<label>
+			<input type="radio"
+			name="OS_favori" id="Autre" value="Autre">Autre<br>
+			</label> 
+			</div>
+
+		</article>
+
+		<article class="possed">
+			<div>
+			<p>Vous possédez :</p>
+			</div>
+
+			<div class="possedposi">
+			<label>
+			<input type="checkbox"
+			name="possession" id="ob" value="ordi_bureau">Un ordinateur de bureau
+			</label><br>
+
+			<label>
+			<input type="checkbox"
+			name="possession" id="po" value="Portable">Un Portable</label><br>
+			<label>
+			<input type="checkbox"
+			name="possession" id="nb" value="netbook">Un netbook<br>
+			</label>
+
+			<label>
+			<input type="checkbox"
+			name="possession" id="PAD" value="tablette">Une tablette (Pad)<br>
+			</label>
+			</div>
+
+		</article>
+
+		<article class="profess">
+			<div>
+			<p>Votre profession :</p>
+			</div>
+			<div class="professposi">
+			<SELECT name="Profession" size="5">
+			<OPTION>Chômeur
+			<OPTION>Etudiant
+			<OPTION>Fonctionnaire
+			<OPTION>Privé
+			<OPTION>Retraité
+			</SELECT>
+			<br>		
+			<input type="submit" id="submit" value="S'inscrire !" name="submit">
+			</div>
+		</article>
+	</form>
+	</section>
+</body>
+</html>
